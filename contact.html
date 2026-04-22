@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Contact — Greenserve</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@300..600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body data-screen-label="Contact">
+
+<nav class="nav">
+  <div class="wrap">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"></span>
+        <span>Green<em>serve</em></span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+      <div class="nav-right">
+        <a href="tel:9804320042" class="nav-phone">980.432.0042</a>
+        <a href="contact.html" class="btn">Request Quote</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ── Page hero ───────────────────────────────── -->
+<header class="page-hero">
+  <div class="page-hero-inner">
+    <div>
+      <div class="eyebrow">Contact · Free consultation</div>
+      <h1>
+        Tell us about<br/>your home.<br/>
+        <em>We'll listen.</em>
+      </h1>
+    </div>
+    <div>
+      <p class="lede">
+        The best projects start with a long conversation under the house. Reach out and a real person — not a call-center — will get back to you within one business day.
+      </p>
+    </div>
+  </div>
+</header>
+
+<!-- ── Contact grid ────────────────────────────── -->
+<section class="contact-grid">
+
+  <div class="contact-left">
+    <div class="info-card">
+      <h4>Call us</h4>
+      <div class="info-line big">980.432.0042</div>
+      <div class="info-sub">Mon – Fri · 9 AM to 5 PM · Emergency line by request</div>
+    </div>
+
+    <div class="info-card">
+      <h4>Email</h4>
+      <div class="info-line">info@greenserve.us</div>
+      <div class="info-sub">We reply within one business day, often sooner.</div>
+    </div>
+
+    <div class="info-card">
+      <h4>Visit</h4>
+      <div class="info-line">3800 Back Creek Church Rd</div>
+      <div class="info-line">Charlotte, NC 28213</div>
+      <div class="info-sub">Appointments preferred — we're often in the field.</div>
+    </div>
+
+    <div class="info-card" style="background: var(--forest-deep); color: var(--cream); border: none;">
+      <h4 style="color: var(--leaf);">Service area</h4>
+      <div class="info-line" style="color: var(--cream); font-size: 15px; line-height: 1.7;">
+        Charlotte · Concord · Gastonia · Hickory · Winston-Salem · Greensboro · High Point · the whole Piedmont Triad.
+      </div>
+      <div class="info-sub" style="color: rgba(244,239,228,0.65); margin-top: 12px;">
+        Not sure if you're in it? Call — you probably are.
+      </div>
+    </div>
+  </div>
+
+  <form class="form" onsubmit="event.preventDefault(); alert('This is a demo form — thanks for checking it out.');">
+    <h2>Request a <em>free quote.</em></h2>
+    <p class="form-sub">Tell us a bit about your home and what you're noticing. We'll schedule an inspection at no cost.</p>
+
+    <div class="form-grid">
+      <div class="field">
+        <label for="name">Full name</label>
+        <input id="name" type="text" placeholder="Jane Carter" required/>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="jane@email.com" required/>
+      </div>
+      <div class="field">
+        <label for="phone">Phone</label>
+        <input id="phone" type="tel" placeholder="(980) 000-0000"/>
+      </div>
+      <div class="field">
+        <label for="zip">ZIP</label>
+        <input id="zip" type="text" placeholder="28213" maxlength="5"/>
+      </div>
+      <div class="field full">
+        <label>I'm interested in</label>
+        <div class="radio-row">
+          <button type="button" class="radio-chip active" data-chip="waterproofing">Waterproofing</button>
+          <button type="button" class="radio-chip" data-chip="mold">Mold</button>
+          <button type="button" class="radio-chip" data-chip="energy">Energy</button>
+          <button type="button" class="radio-chip" data-chip="structural">Structural</button>
+          <button type="button" class="radio-chip" data-chip="unsure">Not sure</button>
+        </div>
+      </div>
+      <div class="field full">
+        <label>Preferred contact</label>
+        <div class="radio-row" style="max-width: 280px;">
+          <button type="button" class="radio-chip active" data-chip="contact-email">Email</button>
+          <button type="button" class="radio-chip" data-chip="contact-phone">Phone</button>
+        </div>
+      </div>
+      <div class="field full">
+        <label for="msg">What are you noticing?</label>
+        <textarea id="msg" placeholder="Musty smell in the basement, uneven floors in the hallway, surprise bills last winter — whatever's going on."></textarea>
+      </div>
+    </div>
+
+    <div class="form-submit">
+      <p class="form-note">We'll never share your information. By submitting, you agree to be contacted about your inquiry.</p>
+      <button type="submit" class="btn">Send it →</button>
+    </div>
+  </form>
+</section>
+
+<!-- ── Footer ────────────────────────────────────── -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">
+        <span class="brand-mark"></span>
+        Green<em>serve</em>
+      </div>
+      <p class="footer-about">
+        Family-owned crawl space, basement, and home-energy experts serving Charlotte, Winston-Salem, Greensboro and the Piedmont Triad since 2014.
+      </p>
+      <div class="footer-contact-line">3800 Back Creek Church Rd</div>
+      <div class="footer-contact-line">Charlotte, NC 28213</div>
+      <div class="footer-contact-line" style="margin-top: 10px;">980.432.0042 · info@greenserve.us</div>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="services.html">Waterproofing</a></li>
+        <li><a href="services.html">Crawl Space Repair</a></li>
+        <li><a href="services.html">Mold Remediation</a></li>
+        <li><a href="services.html">Energy Solutions</a></li>
+        <li><a href="services.html">Structural Repair</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Hours</h4>
+      <ul>
+        <li style="color: rgba(244,239,228,0.82); font-size: 14px;">Mon – Fri</li>
+        <li style="color: rgba(244,239,228,0.82); font-size: 14px;">9 AM – 5 PM</li>
+        <li style="color: rgba(244,239,228,0.55); font-size: 12px; margin-top: 10px;">Emergency service available by phone</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Greenserve · All rights reserved</span>
+    <span>Charlotte · Winston-Salem · Greensboro</span>
+  </div>
+</footer>
+
+<script>
+// Radio chip toggle (within a logical group)
+document.querySelectorAll('.radio-row').forEach(row => {
+  row.querySelectorAll('.radio-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      row.querySelectorAll('.radio-chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+    });
+  });
+});
+</script>
+
+</body>
+</html>
